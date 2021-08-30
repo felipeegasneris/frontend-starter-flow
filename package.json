@@ -1,0 +1,20 @@
+{
+  "name": "frontend-starter-flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/felipeegasneris/frontend-starter-flow.git",
+  "author": "felipeegasneris <felipeegas@letsta.lk>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "cz"
+  }
+}
